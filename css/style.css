@@ -1,0 +1,213 @@
+.vid {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.firstimg {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.midheading {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.About {
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    height: 34%;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid white;
+}
+
+
+.Expertise {
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    height: 66%;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+.Portfolio {
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    height: 66%;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid white;
+}
+
+.Resources {
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    height: 34%;
+    padding-left: 25px;
+    padding-bottom: 25px;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    height: 100%;
+    margin-left: 15px;
+}
+
+.ankerlink{
+color: white;
+text-decoration: none;
+
+}
+
+.pera {
+    font-size: 20px;
+}
+
+.pera2 {
+    /* width: 100%; */
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.imgsize {
+    height: 400px;
+}
+
+.buttonicon {
+    font-weight: 500;
+    color: blue;
+    background-color: white;
+    width: 100%;
+}
+
+.buttonicon:hover {
+    color: white;
+    background-color: rgb(10, 90, 219);
+    width: 100%;
+}
+
+.boxicon {
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+
+    box-shadow: -1px -1px 8px black;
+}
+
+.boxicon1 {
+    height: 300px;
+    background-color: rgb(57, 57, 179);
+    border-radius: 10px;
+
+    box-shadow: -1px -1px 8px black;
+}
+
+.boxicon:hover {
+    color: white;
+    background-color: rgb(57, 57, 179);
+}
+
+.nav {
+    justify-content: end;
+    border: unset;
+}
+
+.nav-link {
+    border: unset;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    box-shadow: unset;
+}
+
+.nav-link:hover {
+    color: blue;
+    font-weight: 600;
+    border: 1px solid transparent;
+    /* text-decoration: underline black; */
+
+
+}
+
+.nav-item {
+    border: unset;
+}
+
+.tabicon {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* width: 100vw; */
+    gap: 120px;
+    /* overflow: hidden; */
+
+}
+
+.accordion-button {}
+
+.accordion-button::after {}
+
+.accordion-button::before {}
+
+.pera3 {
+    text-align: center;
+    /* font-size: 28px; */
+    font-weight: 400;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 20px rgb(179, 176, 176);
+}
+
+.marq {
+    direction: left;
+}
+.ullist{
+    font-size: 20px;
+    list-style: none;
+    line-height: 2;
+}
+.emailbox{
+    border: unset;
+    border-bottom: 2px solid rgb(46, 13, 234) ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.emailbox:active{
+    border: unset;
+}
